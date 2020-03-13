@@ -2,12 +2,16 @@ import { cookie } from '../cookie/cookie'
 import { verify } from '../verify/verify'
 import { date } from '../date/date'
 import { pinyin } from '../pinyin/pinyin'
+import { resize } from '../resize/resize'
+import { uid } from '../uid/uid'
 
 class Mon {
   cookie: object = cookie
   verify: object = verify
   date: object = date
   pinyin: object = pinyin
+  resize: object = resize
+  UID: object = uid
 }
 
 const mon = new Mon()
@@ -19,5 +23,7 @@ export {
   cookie,
   verify,
   date,
-  pinyin
+  pinyin,
+  resize,
+  uid
 }

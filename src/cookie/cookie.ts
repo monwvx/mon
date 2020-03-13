@@ -18,8 +18,8 @@ class Cookie {
   }
 
   public clear () {
-    let keys = document.cookie.split(';').map(e => e.split('=')[0])
-    keys.forEach(e => this.removeItem(e))
+    let keys = document.cookie.split(';').map((e: any) => e.split('=')[0])
+    keys.forEach((e: any) => this.removeItem(e))
   }
 
 }
