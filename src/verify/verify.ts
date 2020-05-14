@@ -52,6 +52,8 @@ class Verify {
     return false
   }
 
+  // public
+
 }
 
 let verify = new Verify()
