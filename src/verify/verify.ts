@@ -1,7 +1,7 @@
 class Verify {
 
-  public empty (value: string) {
-    if (value === '' || !value) {
+  public empty (value: any) {
+    if ((value === '' || !value) && (value != 0)) {
       return false
     }
     return true
